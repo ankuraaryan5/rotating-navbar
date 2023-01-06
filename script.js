@@ -1,0 +1,5 @@
+const lock=document.getElementById('lock')
+const unlock=document.getElementById('unlock')
+const container=document.querySelector('.container')
+lock.addEventListener('click', ()=> container.classList.remove('show-nav'))
+unlock.addEventListener('click', ()=> container.classList.add('show-nav'))
